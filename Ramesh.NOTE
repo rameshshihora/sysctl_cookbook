@@ -1,0 +1,29 @@
+Strainerfile - Is the file to perform the test all at once  - Look at the content
+  - You need Gemfile - This contains all the packages that need for Strainer
+  - After creating file just run "bundle install"
+  - bundle show <packagename> - bundle show strainer
+
+# bundle exec strainer test
+
+Rubocop - Syntax Checker for the cookbook
+  - .rubocop.yml file needed 
+
+foodcritic - https://docs.getchef.com/foodcritic.html
+
+kitchen = Testing environment 
+  - .kitchen.yml file needed 
+  - kitchen {init,create,list,converge,destory}
+  - Keep doing kitchen converge to test the cookbook changes
+
+chefignore - http://www.getchef.com/blog/2011/04/29/chef-0-10-preview-chefignore/  
+  - Chef now uses a single chefignore file, placed in the root of your cookbook repository, to determine which files to ignore when uploading cookbooks.
+
+ruby syntax checker - ruby -c default.rb 
+
+
+spec - looks little difficult 
+  - Guardfile
+  - test/intregation
+  - spec folder
+
+Rakefile - Not sure yet
